@@ -12,3 +12,9 @@ c_test:
 
 c_benchmark:
 	$(C_DIR)/benchmark.o
+
+py_test:
+	pytest -s minumpy/tests
+
+py_benchmark:
+	python3 minumpy/tests/benchmark.py
